@@ -1,0 +1,33 @@
+html{
+    background-color: rgba(63, 127, 191, 0.30);
+}
+body{
+    width: 800px;
+    margin: 20 auto;
+    background-color: rgba(246, 246, 69, 0.3);
+    padding: 20 20;
+    border: 5px solid black;
+    box-shadow: 10px 10px 5px grey;
+}
+h1{
+    margin: 0;
+    padding: 20 0;
+    text-shadow: 3px 3px 1px grey;
+    font-family: 'Bree Serif', serif;
+    font-size: 60px;
+    text-align: center;
+
+}
+h2{
+    font-size: 30px;
+    text-decoration: underline;
+}
+img{
+    display: block;
+    margin: 20 auto;
+}
+#about{
+    margin: 20 auto;
+    padding: 0 20;
+    border: 3px solid black;
+}
