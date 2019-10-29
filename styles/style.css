@@ -11,6 +11,12 @@ body{
     font-family: 'Times New Roman', serif;
     font-size: 20
 }
+hr{
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
 h1{
     margin: 0;
     padding: 20 0;
@@ -22,6 +28,7 @@ h1{
 h2{
     font-size: 21;
     text-decoration: underline;
+    margin: 20 0 0 0;
 }
 h3{
     margin: 5 0;
@@ -31,6 +38,7 @@ h3{
 ul{
     margin: 0;
     line-height: 1.5;
+    text-align: justify;
 }
 p{
     margin: 0;
@@ -39,4 +47,18 @@ p{
 .sub{
 
     font-style: italic;
+}
+
+
+.item-head>.head1{
+    display: inline-block;
+}
+.item-head>.head2{
+    float: right;
+    text-align: right;
+    margin: 5 0;
+    font-size: 19;
+}
+.head2>p{
+    line-height: 1.5;
 }
