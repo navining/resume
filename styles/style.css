@@ -9,7 +9,7 @@ body{
     border: 5px solid black;
     box-shadow: 10px 10px 5px grey;
     font-family: 'Times New Roman', serif;
-    font-size: 20
+
 }
 hr{
     border: 0;
@@ -39,10 +39,16 @@ ul{
     margin: 0;
     line-height: 1.5;
     text-align: justify;
+    font-size: 20
 }
 p{
     margin: 0;
     line-height: 1.5;
+    font-size: 20
+}
+
+.info>p{
+    font-size: 18;
 }
 .sub{
 
